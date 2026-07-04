@@ -20,7 +20,7 @@
 
 <!-- ░░░ LINKS - original-color brand logos, clickable ░░░ -->
 <p>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" title="LinkedIn">
+  <a href="https://www.linkedin.com/in/abdullah-khan-590545313" title="LinkedIn">
     <img src="https://img.icons8.com/color/96/linkedin.png" width="44" height="44" alt="LinkedIn"/>
   </a>
   &nbsp;&nbsp;
