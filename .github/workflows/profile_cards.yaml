@@ -1,0 +1,33 @@
+name: Generate Profile Summary Cards
+
+# Self-generates the GitHub stats and language cards and commits them to
+# this repo, so they are served by GitHub itself. This replaces the
+# github-readme-stats.vercel.app public instance, which suffers from
+# rate limiting and outages (broken images on the profile).
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release/v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: abdullah-khan-aie
+          BRANCH_NAME: main
+          UTC_OFFSET: 5
