@@ -48,11 +48,9 @@
 
 ---
 
-## PROFILE
+## SUMMARY
 
-- AI Engineer and Data Scientist with the expertise on delivering ROI-driven solutions.
-- Transformed raw data into revenue-generating insights, helping clients dominate their markets.
-- Expertise in developing end-to-end Data Products, from conceptualisation, proof of concept – POC, to full scale production, with a focus on Healthcare, Finance, and e-com sectors in the UK, North American and UAE markets.
+AI Engineer with 5+ years of experience, progressing from statistical modeling and fine-tuning BERT, transformer, and computer vision models as a Data Scientist and Machine Learning Engineer to building production agentic AI systems in healthcare, proptech, and fintech. Leads system design and ships end-to-end AI applications: RAG and KAG pipelines, multi-agent systems (LangChain, AWS Strands, MCP), LLM evaluations, AI security, and MLOps/LLMOps on AWS, Azure, and GCP, including the frontend and backend. Built CareOps, an agentic pipeline that generates patient care plans from doctor-patient conversations, saving clinicians 30 hours per week.
 
 ---
 
